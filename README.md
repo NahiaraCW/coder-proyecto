@@ -1,6 +1,5 @@
-Tiene toda info relevante del proyecto. Es como un guion tecnico del proyecto. No se le puede aplicar css.
-
-<h3 align="center">A passionate frontend developer from India</h3>
+<h1 align="center">Hi 👋, I'm Nahiara</h1>
+<h3 align="center">A passionate frontend developer form Argentina</h3>
 
 - 🔭 I’m currently working on **Serendipia, tienda de crochet**
 
