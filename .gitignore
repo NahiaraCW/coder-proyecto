@@ -1,0 +1,5 @@
+#Archivo de texto (archivos ocultos, no se suben)
+*.txt
+
+#Carpeta node_modules (son como archivos ocultos, no se ven)
+node_modules/
