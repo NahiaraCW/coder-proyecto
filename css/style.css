@@ -183,49 +183,50 @@ body {
         font-size: 12px;
         margin-top: 45px;}
     
-    
-        .form-register {
-            width: 250px;
-            padding: 20px;
-            margin: auto;
-            margin-top: 70px;
-            border-radius: 3px;
-            box-shadow: 5px 9px 25px #000;}
+    .texto
+
+    .form-register {
+        width: 250px;
+        padding: 20px;
+        margin: auto;
+        margin-top: 70px;
+        border-radius: 3px;
+        box-shadow: 5px 9px 25px #000;}
           
-          .form-register h4 {
-            font-size: 15px;
-            margin-bottom: 12px;}
+    .form-register h4 {
+        font-size: 15px;
+        margin-bottom: 12px;}
           
-          .controls {
-            width: 100%;
-            padding: 6px;
-            border-radius: 3px;
-            margin-bottom: 16px;
-            border: 1px solid #b3888b;
-            font-size: 10px;}
+    .controls {
+        width: 100%;
+        padding: 6px;
+        border-radius: 3px;
+        margin-bottom: 16px;
+        border: 1px solid #b3888b;
+        font-size: 10px;}
           
-          .form-register p {
-            height: 25px;
-            text-align: center;
-            font-size: 10px;
-            line-height: 25px;}
+    .form-register p {
+        height: 25px;
+        text-align: center;
+        font-size: 10px;
+        line-height: 25px;}
           
-          .form-register a {
-            color: white;
-            text-decoration: none;}
+    .form-register a {
+        color: white;
+        text-decoration: none;}
           
-          .form-register a:hover {
-            color: white;
-            text-decoration: underline;}
+    .form-register a:hover {
+        color: white;
+        text-decoration: underline;}
           
-          .form-register .botons {
-            width: 100%;
-            background: #b3888b;
-            border: none;
-            padding: 8px;
-            color: white;
-            margin: 10px 0;
-            font-size: 9px;}
+    .form-register .botons {
+        width: 100%;
+        background: #b3888b;
+        border: none;
+        padding: 8px;
+        color: white;
+        margin: 10px 0;
+        font-size: 9px;}
     }
 
 
@@ -371,17 +372,21 @@ body {
     80% { top: -200px; }}
 
 .preguntas {
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: left;}
 
 .preguntas h3 {
     font-size: 25px;
     margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
     font-weight: lighter;
     text-align: left;
     color: #6b4f4fcc}
 
 .preguntas p{
+    margin-right: 40px;
+    margin-left: 40px;
     font-size: 16px;
     margin-top: 10px;
     text-align: left;}
@@ -390,16 +395,18 @@ body {
 /*PAGINA MAYORISTAS*/
 .contenido-m {background-color: #FAB7BC;}
 
-.mayoristasinfo {
-    margin-top: 70px;
-    margin-bottom: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
-    justify-content: center;
-    max-width: 300px;
-    max-height: 300px;}
+.mayoristasinfo img {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    max-width: 900px;
+    max-height: 900px;}
 
-/*PAGINA CONTACTO*/
+
+
+
+
+    /*PAGINA CONTACTO*/
+
 .contenido-contacto {
     background-color: #FAB7BC;
     justify-items: space-around;}
@@ -412,11 +419,15 @@ body {
 
 .texto {
     font-family: "calibri";
-    color:#6b4f4f}
+    color: rgb(253, 236, 236);
+    margin-right: 18px;
+    margin-left: 18px;}
 
 .texto2 {
     font-family: "calibri";
-    color: #756060}
+    color: #756060;
+    margin-right: 32px;
+    margin-left: 32px;}
 
 .form-register {
     width: 400px;
@@ -469,7 +480,24 @@ body {
 
 
 /*PAGINA QUIENES SOMOS*/
-.contenido-qs {background-color: #FAB7BC;}
+.contenido-qs {
+    background-color: #FAB7BC;
+    margin-top: 40px;
+    margin-bottom: 40px;}
+
+.row img {
+    max-width:400px ;
+    max-height: 400px ;}
+
+.row p {
+    margin-top: 60px;
+    text-align: center;}
+
+.textoextra {
+    text-align: center;
+    margin-top: 40px;}
+
+.boton {margin-top: 50px;}
 
 .btn {
     color: white;
