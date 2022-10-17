@@ -108,9 +108,7 @@ body {
     background-color: transparent;
     border: 1px solid black;}
 
-.pie { 
-    position: fixed;
-    bottom: 0;
+.pie {
     background-color: #FAB7BC;
     grid-area: footer;
     display: flex;
