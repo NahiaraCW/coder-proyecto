@@ -5,7 +5,7 @@ box-sizing: border-box;}
 body {
     margin: 0;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto auto;
     min-height: 100vh;}
 
 /*PAGINA PRINCIPAL*/
@@ -46,10 +46,12 @@ body {
     color: white;}
 
 .contenido {
+    z-index: 3;
     margin-top: 40px;
     margin-bottom: 40px;}
 
 .estilo-c{
+    z-index: 3;
     font-family: sans-serif;
     width: 30%;}
 
