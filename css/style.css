@@ -69,12 +69,6 @@ body {
 
 h2 {font-size: 20px;}
 
-.titulo h3 {font-size: 30px;}    
-
-.titulo {
-    margin-top: 20px;
-    font-size: 15px;
-    text-align: center;}
 
 .estilo-c {
     margin-top: 20px;
@@ -199,17 +193,90 @@ h2 {font-size: 20px;}
         
     h2 {font-size: 14px;}
 
-    .titulo h3 {font-size: 22px;}
-
     .uno img {
         max-width: 28px;
         max-height: 28px;}
+
+        .Iam {
+            margin-top: 30px;
+            padding: 2em 5em;
+            font: normal 40px/50px Montserrat, sans-serif;}
         
-    .titulo {
-        margin-top: 20px;
-        font-size: 30px;
-        text-align: center;}
-    
+        .Iam p {
+            height: 10px;
+            float: left;
+            margin-right: 0.3px;}
+        
+        .Iam b {
+            float: left;
+            overflow: hidden;
+            position: relative;
+            height: 30px;
+            top: 4px;}
+        
+        .Iam .innerIam {
+            display: inline-block;
+            color: #6b4f4fcc;
+            position: relative;
+            white-space: nowrap;
+        
+          
+          
+          /*animation*/
+          -webkit-animation:move 4s;
+             -moz-animation:move 4s;
+              -ms-animation:move 4s;
+               -o-animation:move 4s;
+                  animation:move 4s;
+          /*animation-iteration-count*/
+          -webkit-animation-iteration-count:infinite;
+             -moz-animation-iteration-count:infinite;
+              -ms-animation-iteration-count:infinite;
+               -o-animation-iteration-count:infinite;
+                  animation-iteration-count:infinite;
+          /*animation-delay*/
+          -webkit-animation-delay:1s;
+             -moz-animation-delay:1s;
+              -ms-animation-delay:1s;
+               -o-animation-delay:1s;
+                  animation-delay:1s;}
+        
+        
+          @keyframes move{
+          0%  { top: 0px; }
+          20% { top: -50px; }
+          40% { top: -100px; }
+          60% { top: -150px; }
+          80% { top: -200px; }}
+          
+          @-webkit-keyframes move {
+            0%  { top: 0px; }
+            20% { top: -50px; }
+            40% { top: -100px; }
+            60% { top: -150px; }
+            80% { top: -200px; }}
+        
+          @-moz-keyframes move {
+            0%  { top: 0px; }
+            20% { top: -50px; }
+            40% { top: -100px; }
+            60% { top: -150px; }
+            80% { top: -200px; }}
+         
+          @-o-keyframes move {
+            0%  { top: 0px; }
+            20% { top: -50px; }
+            40% { top: -100px; }
+            60% { top: -150px; }
+            80% { top: -200px; }}
+        
+          @keyframes move {
+            0%  { top: 0px; }
+            20% { top: -50px; }
+            40% { top: -100px; }
+            60% { top: -150px; }
+            80% { top: -200px; }}
+        
     .estilo-c {
         margin-top: 15px;
         z-index: 3;
@@ -384,16 +451,90 @@ h2 {font-size: 20px;}
         font-size: 8px;
         align-items: center;}
     
-    .titulo h3 {font-size: 14px;}
-    
+
     .uno img {
         max-width: 14px;
         max-height: 14px;}
-            
-    .titulo {
-            margin-top: 16px;
-            font-size: 20px;
-            text-align: center;}
+     
+        .Iam {
+            margin-top: 20px;
+            padding: 2em 5em;
+            font: normal 40px/50px Montserrat, sans-serif;}
+        
+        .Iam p {
+            height: 50px;
+            float: left;
+            margin-right: 0.3px;}
+        
+        .Iam b {
+            float: left;
+            overflow: hidden;
+            position: relative;
+            height: 20px;
+            top: 4px;}
+        
+        .Iam .innerIam {
+            display: inline-block;
+            color: #6b4f4fcc;
+            position: relative;
+            white-space: nowrap;
+        
+          
+          
+          /*animation*/
+          -webkit-animation:move 3s;
+             -moz-animation:move 3s;
+              -ms-animation:move 3s;
+               -o-animation:move 3s;
+                  animation:move 3s;
+          /*animation-iteration-count*/
+          -webkit-animation-iteration-count:infinite;
+             -moz-animation-iteration-count:infinite;
+              -ms-animation-iteration-count:infinite;
+               -o-animation-iteration-count:infinite;
+                  animation-iteration-count:infinite;
+          /*animation-delay*/
+          -webkit-animation-delay:1s;
+             -moz-animation-delay:1s;
+              -ms-animation-delay:1s;
+               -o-animation-delay:1s;
+                  animation-delay:1s;}
+        
+        
+          @keyframes move{
+          0%  { top: 0px; }
+          20% { top: -50px; }
+          40% { top: -100px; }
+          60% { top: -150px; }
+          80% { top: -200px; }}
+          
+          @-webkit-keyframes move {
+            0%  { top: 0px; }
+            20% { top: -50px; }
+            40% { top: -100px; }
+            60% { top: -150px; }
+            80% { top: -200px; }}
+        
+          @-moz-keyframes move {
+            0%  { top: 0px; }
+            20% { top: -50px; }
+            40% { top: -100px; }
+            60% { top: -150px; }
+            80% { top: -200px; }}
+         
+          @-o-keyframes move {
+            0%  { top: 0px; }
+            20% { top: -50px; }
+            40% { top: -100px; }
+            60% { top: -150px; }
+            80% { top: -200px; }}
+        
+          @keyframes move {
+            0%  { top: 0px; }
+            20% { top: -50px; }
+            40% { top: -100px; }
+            60% { top: -150px; }
+            80% { top: -200px; }}    
 
     .estilo-c {
             margin-top: 10px;
