@@ -1,0 +1,16 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+.grid-contenedor {
+    background-color:#E0A4A8;
+    width: 100%;
+    display: grid;
+    grid-template-columns: (1, 2fr);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    grid-template-rows: 100px 50px auto 320px;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";}

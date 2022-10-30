@@ -1,0 +1,32 @@
+@import "../base/variables";
+@import "../base/generales";
+@import "../base/media-query";
+
+.pie {
+    background-color: #d39195;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    .mapa {align-items: center;}
+    .instagram img {
+        align-items: center;
+        max-width: 50px;
+        max-height: 50px;}
+    
+    .facebook img {
+        align-items: center;
+        max-width: 50px;
+        max-height: 50px;}
+    
+    .informacion {
+        text-align: right;
+        color: white;
+        font-size: 20px;}
+
+}
+
+
+
+

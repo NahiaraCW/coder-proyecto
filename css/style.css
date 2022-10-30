@@ -912,7 +912,7 @@ h2 {font-size: 20px;}
 .row img {
     margin-top: 20px;
     max-width:400px ;
-    max-height: 400px ;}
+    max-height: 400px;}
 
 .row p {
     margin-top: 60px;
@@ -920,10 +920,12 @@ h2 {font-size: 20px;}
 
 .textoextra {
     text-align: center;
-    margin-top: 40px;}
+    margin-top: 30px;}
 
-.boton {margin-top: 50px;}
-
+.boton {
+    margin-top: 50px;
+    margin-bottom: 50px;}
+    
 .btn {
     color: white;
     margin: 0 auto;
@@ -937,20 +939,20 @@ h2 {font-size: 20px;}
     border-radius: 8px;
     transition-duration: 4s;
     overflow: hidden;}
-  
+      
 .btn::before{
     content: "Bienvenido a serendipia, sentite como en casa!";
     color: white;
     font-family: "Century Gothic", sans-serif;
     font-size: 18px;
-    position: absolute;
+    position:absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
     transition: all .5s ease-in-out;}
-  
+      
 .btn:hover::before{top: -65px;}  
-  
+      
 .btn::after {
     font-family: "FontAwesome";
     content: "\f004";
@@ -961,5 +963,7 @@ h2 {font-size: 20px;}
     left:50%;
     transform: translate(-50%, -50%);
     transition: all .3s ease-in-out;}
-  
+      
 .btn:hover::after {top: 50px;}
+    
+   

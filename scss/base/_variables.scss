@@ -1,0 +1,45 @@
+$color-blanco: white; 
+$rosa-oscuro: #d39195 ;
+$rosa-claro: #FAB7BC;
+$gris-oscuro: #6b4f4f;
+$gris-claro:#756060 ;
+
+
+//!Listas
+$colores:
+#664E4F,
+#E6AFB3,
+#6B4F4F,
+#F7AAB7,
+#BD8C8C,
+#D6A3A3;
+
+$font-size:
+12px,
+16px,
+20px;
+
+
+//!Mapas (pueden ser de dif categorias)
+
+//*ej: poner todas las propiedades del boton de serendipia
+
+$btn: (
+    bg-botton: #664E4F,
+    border: 3px solid #6B4F4F,
+    color-texto: rgba(235, 229, 229, 0.973),
+);
+
+
+//!Extends
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+
+//!Mixins
+@mixin flex ($flex, $justify, $aling) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;}

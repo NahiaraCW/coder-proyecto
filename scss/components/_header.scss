@@ -1,0 +1,23 @@
+@import "../base/variables";
+@import "../base/generales";
+@import "../base/media-query";
+
+.encabezado {
+    background-color: $color-blanco;
+    grid-area: header;
+    font-size: medium;
+    div img {
+        display: flex;
+        align-items: center;
+        max-width: 100px;
+        max-height: 100px;
+        object-fit: cover;}
+    .menu {
+        background-color: #FAB7BC;
+        grid-area: nav;
+        ul li {
+            list-style: none;
+            text-decoration: none;
+            display: inline-block;
+            color: $color-blanco;}}
+}
