@@ -162,9 +162,12 @@ h2 {font-size: 20px;}
 
 
 @media screen and (max-width:700px) {
+
+/*GRID DE LA PAGINA INDEX 700px*/
+
     .grid-contenedor {
         grid-template-columns: (1, 1fr);
-        grid-template-rows: 75px 40px 8auto0px 270px;
+        grid-template-rows: 75px 40px auto 270px;
         grid-template-areas: 
             "header"
             "nav"
@@ -368,7 +371,7 @@ h2 {font-size: 20px;}
     .info-card {padding: 10px 20px;}
 
 
-/*GRID DE LA PAGINA CONTACTO*/
+/*GRID DE LA PAGINA CONTACTO 700px*/
     .contacto-info {
         font-size: 12px;
         margin-top: 45px;}
@@ -415,10 +418,213 @@ h2 {font-size: 20px;}
         color: white;
         margin: 10px 0;
         font-size: 9px;}
-    }
+    
+    /*GRID DE LA PAGINA MAYORISTA 700px*/
+    .contenido-m {
+        grid-area: main;
+        background-color: #FAB7BC;}
+
+    .mayoristasinfo img {
+        margin-top: 0px;
+        margin-bottom: 30px;
+        max-width: 500px;
+        max-height: 500px;}
+
+    
+    /*GRID DE LA PAGINA PREGUNTAS FRECUENTES 700px*/
+    
+    .contenido-pf {
+        background-color: #FAB7BC;
+        grid-area: main;}
+    
+    .Iam {
+        padding: 2em 5em;
+        font: normal 40px/50px Montserrat, sans-serif;}
+    
+    .Iam p {
+        height: 10px;
+        float: left;
+        margin-right: 0.3px;}
+    
+    .Iam b {
+        float: left;
+        overflow: hidden;
+        position: relative;
+        height: 30px;
+        top: 5px;}
+    
+    .Iam .innerIam {
+        display: inline-block;
+        color: #6b4f4fcc;
+        position: relative;
+        white-space: nowrap;
+    
+      
+      
+      /*animation*/
+      -webkit-animation:move 5s;
+         -moz-animation:move 5s;
+          -ms-animation:move 5s;
+           -o-animation:move 5s;
+              animation:move 5s;
+      /*animation-iteration-count*/
+      -webkit-animation-iteration-count:infinite;
+         -moz-animation-iteration-count:infinite;
+          -ms-animation-iteration-count:infinite;
+           -o-animation-iteration-count:infinite;
+              animation-iteration-count:infinite;
+      /*animation-delay*/
+      -webkit-animation-delay:1s;
+         -moz-animation-delay:1s;
+          -ms-animation-delay:1s;
+           -o-animation-delay:1s;
+              animation-delay:1s;}
+    
+    
+      @keyframes move{
+      0%  { top: 0px; }
+      20% { top: -40px; }
+      40% { top: -90px; }
+      60% { top: -140px; }
+      80% { top: -190px; }}
+      
+      @-webkit-keyframes move {
+        0%  { top: 0px; }
+        20% { top: -40px; }
+        40% { top: -90px; }
+        60% { top: -140px; }
+        80% { top: -190px; }}
+    
+      @-moz-keyframes move {
+        0%  { top: 0px; }
+        20% { top: -40px; }
+        40% { top: -90px; }
+        60% { top: -140px; }
+        80% { top: -190px; }}
+     
+      @-o-keyframes move {
+        0%  { top: 0px; }
+        20% { top: -40px; }
+        40% { top: -90px; }
+        60% { top: -140px; }
+        80% { top: -190px; }}
+    
+      @keyframes move {
+        0%  { top: 0px; }
+        20% { top: -40px; }
+        40% { top: -90px; }
+        60% { top: -140px; }
+        80% { top: -190px; }}
+    
+    .preguntas {
+        margin-top: 18px;
+        text-align: left;}
+    
+    .preguntas h3 {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-weight: lighter;
+        text-align: left;
+        color: #6b4f4fcc}
+    
+    .preguntas p{
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 10px;
+        margin-top: 8px;
+        text-align: left;}
+    
+    /* GRID DE LA PAGINA QUIENES SOMOS 700px*/
+.contenido-qs {
+    background-color: #FAB7BC;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-area: main;}
+
+.row img {
+    margin-top: 15px;
+    max-width:250px ;
+    max-height: 250px;}
+
+.row p {
+    margin-top: 40px;
+    text-align: center;}
+
+.textoextra {
+    text-align: center;
+    margin-top: 20px;}
+
+.boton {
+    margin-top: 8px;
+    margin-bottom: 8px;}
+    
+.btn {
+    color: white;
+    margin: 0 auto;
+    width: 150px;
+    max-height: 100px;
+    background-color: #756060;
+    text-align: center;
+    padding: 6px;
+    margin-bottom: 3px;
+    transform: translate(-0%, -0%);
+    border-radius: 6px;
+    transition-duration: 4s;
+    overflow: hidden;}
+      
+.btn::before{
+    content: "Bienvenido a serendipia, sentite como en casa!";
+    color: white;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 12px;
+    position:absolute;
+    top: 35%;
+    left:35%;
+    transform: translate(-35%, -35%);
+    transition: all .5s ease-in-out;}
+      
+.btn:hover::before{top: -45px;}  
+      
+.btn::after {
+    font-family: "FontAwesome";
+    content: "\f004";
+    font-size: 25px;
+    color: red;
+    position: absolute;
+    top: 100%;
+    left:35%;
+    transform: translate(-35%, -35%);
+    transition: all .3s ease-in-out;}
+      
+.btn:hover::after {top: 35px;}
+    
+/*GRID DE LA PAGINA PRODUCTOS 700px*/
+
+.contenido-productos {
+    margin-top: 40px;
+    background-color: #FAB7BC;
+    grid-area: main;}  
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:450px) {
+
+/*GRID DE LA PAGINA INDEX 450px*/
+
     .grid-contenedor {grid-template-columns: (1, 0,5fr);
     grid-template-rows: 50px 15px auto 300px;
     grid-template-areas: 
@@ -610,7 +816,7 @@ h2 {font-size: 20px;}
         color: white;
         font-size: 8px;}
     
-/*GRID DE LA PAGINA CONTACTO*/
+/*GRID DE LA PAGINA CONTACTO 450px*/
 .contacto-info {
     font-size: 8px;
     margin-top: 10px;}
@@ -683,7 +889,204 @@ h2 {font-size: 20px;}
     color: white;
     margin: 8px 0;
     font-size: 8px;}
+
+/*GRID DE LA PAGINA MAYORISTA 450px*/
+.contenido-m {
+    grid-area: main;
+    background-color: #FAB7BC;}
+
+.mayoristasinfo img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-width: 350px;
+    max-height: 350px;}
+
+    /*GRID DE LA PAGINA PREGUNTAS FRECUENTES 450px*/
+    
+    .contenido-pf {
+        background-color: #FAB7BC;
+        grid-area: main;}
+    
+    .Iam {
+        padding: 2em 5em;
+        font: normal 40px/50px Montserrat, sans-serif;}
+    
+    .Iam p {
+        height: 70px;
+        float: left;
+        margin-right: 0.3px;}
+    
+    .Iam b {
+        float: left;
+        overflow: hidden;
+        position: relative;
+        height: 30px;
+        top: 5px;}
+    
+    .Iam .innerIam {
+        display: inline-block;
+        color: #6b4f4fcc;
+        position: relative;
+        white-space: nowrap;
+    
+      
+      
+      /*animation*/
+      -webkit-animation:move 5s;
+         -moz-animation:move 5s;
+          -ms-animation:move 5s;
+           -o-animation:move 5s;
+              animation:move 5s;
+      /*animation-iteration-count*/
+      -webkit-animation-iteration-count:infinite;
+         -moz-animation-iteration-count:infinite;
+          -ms-animation-iteration-count:infinite;
+           -o-animation-iteration-count:infinite;
+              animation-iteration-count:infinite;
+      /*animation-delay*/
+      -webkit-animation-delay:1s;
+         -moz-animation-delay:1s;
+          -ms-animation-delay:1s;
+           -o-animation-delay:1s;
+              animation-delay:1s;}
+    
+    
+      @keyframes move{
+      0%  { top: 0px; }
+      20% { top: -30px; }
+      40% { top: -80px; }
+      60% { top: -130px; }
+      80% { top: -180px; }}
+      
+      @-webkit-keyframes move {
+        0%  { top: 0px; }
+        20% { top: -30px; }
+        40% { top: -80px; }
+        60% { top: -130px; }
+        80% { top: -180px; }}
+    
+      @-moz-keyframes move {
+        0%  { top: 0px; }
+        20% { top: -30px; }
+        40% { top: -80px; }
+        60% { top: -130px; }
+        80% { top: -180px; }}
+     
+      @-o-keyframes move {
+        0%  { top: 0px; }
+        20% { top: -30px; }
+        40% { top: -80px; }
+        60% { top: -130px; }
+        80% { top: -180px; }}
+    
+      @keyframes move {
+        0%  { top: 0px; }
+        20% { top: -30px; }
+        40% { top: -80px; }
+        60% { top: -130px; }
+        80% { top: -180px; }}
+    
+    .preguntas {
+        margin-top: 12px;
+        text-align: left;}
+    
+    .preguntas h3 {
+        font-size: 10px;
+        margin-top: 7px;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-weight: lighter;
+        text-align: left;
+        color: #6b4f4fcc}
+    
+    .preguntas p{
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 6px;
+        margin-top: 5px;
+        text-align: left;}
+    
+    /* GRID DE LA PAGINA QUIENES SOMOS 450px*/
+    .contenido-qs {
+        background-color: #FAB7BC;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        grid-area: main;}
+    
+    .row img {
+        margin-top: 7px;
+        max-width:125px ;
+        max-height: 125px;}
+    
+    .row p {
+        margin-top: 20px;
+        text-align: center;}
+    
+    .textoextra {
+        text-align: center;
+        margin-top: 10px;}
+    
+    .boton {
+        margin-top: 4px;
+        margin-bottom: 4px;}
+        
+    .btn {
+        color: white;
+        margin: 0 auto;
+        width: 75px;
+        max-height: 50px;
+        background-color: #756060;
+        text-align: center;
+        padding: 3px;
+        margin-bottom: 2px;
+        transform: translate(-0%, -0%);
+        border-radius: 3px;
+        transition-duration: 4s;
+        overflow: hidden;}
+          
+    .btn::before{
+        content: "Bienvenido a serendipia, sentite como en casa!";
+        color: white;
+        font-family: "Century Gothic", sans-serif;
+        font-size: 7px;
+        position:absolute;
+        top: 25%;
+        left:25%;
+        transform: translate(-25%, -25%);
+        transition: all .5s ease-in-out;}
+          
+    .btn:hover::before{top: -25px;}  
+          
+    .btn::after {
+        font-family: "FontAwesome";
+        content: "\f004";
+        font-size: 15px;
+        color: red;
+        position: absolute;
+        top: 100%;
+        left:25%;
+        transform: translate(-25%, -25%);
+        transition: all .3s ease-in-out;}
+          
+    .btn:hover::after {top: 25px;}
+
+/*GRID DE LA PAGINA PRODUCTOS 450px*/
+
+    .contenido-productos {
+        margin-top: 20px;
+        background-color: #FAB7BC;
+        grid-area: main;}   
+
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -825,9 +1228,7 @@ h2 {font-size: 20px;}
 
 
 
-
-
-    /*PAGINA CONTACTO*/
+/*PAGINA CONTACTO*/
 
 .contenido-contacto {
     background-color: #FAB7BC;
@@ -902,6 +1303,15 @@ h2 {font-size: 20px;}
     font-size: 16px;}
 
 
+
+
+
+
+
+
+
+
+
 /*PAGINA QUIENES SOMOS*/
 .contenido-qs {
     background-color: #FAB7BC;
@@ -923,8 +1333,8 @@ h2 {font-size: 20px;}
     margin-top: 30px;}
 
 .boton {
-    margin-top: 50px;
-    margin-bottom: 50px;}
+    margin-top: 10px;
+    margin-bottom: 10px;}
     
 .btn {
     color: white;
