@@ -12,12 +12,17 @@
         max-width: 100px;
         max-height: 100px;
         object-fit: cover;}
+    h1 {color: nth ($colores, 7);
+        font-size: nth ($font-size, 3);}
     .menu {
-        background-color: #FAB7BC;
+        background-color: $rosa-claro;
         grid-area: nav;
+        margin-top: none;
+        margin-bottom: none;
         ul li {
             list-style: none;
             text-decoration: none;
             display: inline-block;
-            color: $color-blanco;}}
+            color: $color-blanco;
+            padding-left: 1rem;}}
 }

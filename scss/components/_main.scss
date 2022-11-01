@@ -1,3 +1,284 @@
 @import "../base/variables";
 @import "../base/generales";
 @import "../base/media-query";
+
+/*main index*/
+.contenido {
+    z-index: 3;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    grid-area: main;
+    .uno {
+        grid-area: main;
+        background-color: $marron-claro;
+        border: 1px solid $marron-oscuro;
+        width: 100%;
+        height: 3%;
+        margin-top: 10px;
+        font-size: 10px;
+        @extend %flex;
+        img {
+            max-width: 40px;
+            max-height: 40px;}}
+    .estilo-c {
+        display: flex;
+        float: left;
+        margin-left: 30px;
+        margin-top: 20px;
+        z-index: 3;
+        font-family: sans-serif;
+        width: 30%;
+        .img-container{
+            overflow: hidden;
+            height: 250px;
+            position: relative;
+            border-radius: 15px;
+            img{
+                width: 105%;
+                position: absolute;
+                top: -60%;
+                transition: all 0.5s;}}}}
+
+
+/*main de la pagina productos*/
+
+.contenido-productos {
+    margin-top: 60px;
+    background-color: $rosa-claro;
+    grid-area: main;
+    .contacto-info {
+        font-size: 20px;
+        text-align: left;
+        margin-top: 60px;
+        background-color: $marron-oscuro;
+        .texto {
+            font-family: "calibri";
+            color: rgb(253, 236, 236);
+            margin-right: 18px;
+            margin-left: 18px;}
+        .texto2 {
+            font-family: "calibri";
+            color: $marron-claro;
+            margin-right: 32px;
+            margin-left: 32px;}}
+    .form-register {
+        width: 400px;
+        background: $marron-oscuro;
+        padding: 30px;
+        margin: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        border-radius: 4px;
+        font-family: "calibri";
+        color: $color-blanco;
+        box-shadow: 7px 13px 37px $negro;
+        h4 {
+            font-size: 22px;
+            margin-bottom: 20px;}
+        .controls {
+            width: 100%;
+            background: $marron-oscuro;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid $marron-claro;
+            font-family: "calibri";
+            font-size: 18px;
+            color: $color-blanco;}
+        p {
+            height: 40px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 40px;}
+        a {
+            color: $color-blanco;
+            text-decoration: none;
+            &:hover {
+                color: $color-blanco;
+                text-decoration: underline;}}
+        .botons {
+            width: 100%;
+            background: #b3888b;
+            border: none;
+            padding: 12px;
+            color: $color-blanco;
+            margin: 16px 0;
+            font-size: 16px;}}}
+
+/*main de la pagina contacto*/
+
+.contenido-contacto {
+    background-color: $rosa-claro;
+    justify-items: space-around;
+    grid-area: main;}
+
+/*main de la pagina preguntas frecuentes*/
+
+.contenido-pf {
+    background-color: $rosa-claro;
+    grid-area: main;
+    .Iam {
+        padding: 2em 5em;
+        font: normal 40px/50px Montserrat, sans-serif;
+        p {
+            height: 10px;
+            float: left;
+            margin-right: 0.3px;}
+        b {
+            float: left;
+            overflow: hidden;
+            position: relative;
+            height: 40px;
+            top: 5px;
+            .innerIam {
+                display: inline-block;
+                color: $marron-oscuro;
+                position: relative;
+                white-space: nowrap;
+            
+              
+              
+              /*animation*/
+              -webkit-animation:move 5s;
+                 -moz-animation:move 5s;
+                  -ms-animation:move 5s;
+                   -o-animation:move 5s;
+                      animation:move 5s;
+              /*animation-iteration-count*/
+              -webkit-animation-iteration-count:infinite;
+                 -moz-animation-iteration-count:infinite;
+                  -ms-animation-iteration-count:infinite;
+                   -o-animation-iteration-count:infinite;
+                      animation-iteration-count:infinite;
+              /*animation-delay*/
+              -webkit-animation-delay:1s;
+                 -moz-animation-delay:1s;
+                  -ms-animation-delay:1s;
+                   -o-animation-delay:1s;
+                      animation-delay:1s;}
+            
+            
+              @keyframes move{
+              0%  { top: 0px; }
+              20% { top: -50px; }
+              40% { top: -100px; }
+              60% { top: -150px; }
+              80% { top: -200px; }}
+              
+              @-webkit-keyframes move {
+                0%  { top: 0px; }
+                20% { top: -50px; }
+                40% { top: -100px; }
+                60% { top: -150px; }
+                80% { top: -200px; }}
+            
+              @-moz-keyframes move {
+                0%  { top: 0px; }
+                20% { top: -50px; }
+                40% { top: -100px; }
+                60% { top: -150px; }
+                80% { top: -200px; }}
+             
+              @-o-keyframes move {
+                0%  { top: 0px; }
+                20% { top: -50px; }
+                40% { top: -100px; }
+                60% { top: -150px; }
+                80% { top: -200px; }}
+            
+              @keyframes move {
+                0%  { top: 0px; }
+                20% { top: -50px; }
+                40% { top: -100px; }
+                60% { top: -150px; }
+                80% { top: -200px; }}}}}
+    .preguntas {
+        margin-top: 20px;
+        text-align: left;
+        h3 {
+            font-size: 25px;
+            margin-top: 10px;
+            margin-right: 25px;
+            margin-left: 25px;
+            font-weight: lighter;
+            text-align: left;
+            color: $marron-oscuro}
+        p{
+            margin-right: 40px;
+            margin-left: 40px;
+            font-size: nth ($font-size, 2);
+            margin-top: 10px;
+            text-align: left;}}     
+
+/*main de la pagina mayoristas*/
+
+.contenido-m {
+    grid-area: main;
+    background-color: $rosa-claro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .mayoristasinfo img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        max-width: 900px;
+        max-height: 900px;}}
+
+/*main de la pagina quienes somos*/
+
+.contenido-qs {
+    background-color: $rosa-claro;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    grid-area: main;
+    .row img {
+        margin-top: 20px;
+        max-width:400px ;
+        max-height: 400px;}
+    
+    .row p {
+        margin-top: 60px;
+        text-align: center;}
+    .textoextra {
+        text-align: center;
+        margin-top: 30px;}
+    .boton {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        .btn {
+            color: $color-blanco;
+            margin: 0 auto;
+            width: 200px;
+            height: 150px;
+            max-height: 150px;
+            background-color: $marron-claro;
+            text-align: center;
+            padding: 8px;
+            margin-bottom: 4px;
+            transform: translate(-0%, -0%);
+            border-radius: 8px;
+            transition-duration: 4s;
+            overflow: hidden;
+            &::before{
+                content: "Bienvenido a serendipia, sentite como en casa!";
+                color: $color-blanco;
+                font-family: "Century Gothic", sans-serif;
+                font-size: 14px;
+                position:absolute;
+                top: 50%;
+                left:50%;
+                transform: translate(-50%, -50%);
+                transition: all .5s ease-in-out;
+                :hover::before{top: -75px;}}
+            &::after {
+                font-family: "FontAwesome";
+                content: "\f004";
+                font-size: 40px;
+                color: red;
+                position: absolute;
+                top: 130%;
+                left:50%;
+                transform: translate(-50%, -50%);
+                transition: all .3s ease-in-out;
+                :hover::after {top: 75px;}}}}}

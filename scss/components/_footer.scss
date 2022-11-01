@@ -3,7 +3,7 @@
 @import "../base/media-query";
 
 .pie {
-    background-color: #d39195;
+    background-color: $rosa-oscuro;
     grid-area: footer;
     display: flex;
     justify-content: space-around;
@@ -22,7 +22,7 @@
     
     .informacion {
         text-align: right;
-        color: white;
+        color: $color-blanco;
         font-size: 20px;}
 
 }

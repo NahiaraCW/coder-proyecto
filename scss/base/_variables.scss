@@ -1,8 +1,9 @@
 $color-blanco: white; 
 $rosa-oscuro: #d39195 ;
 $rosa-claro: #FAB7BC;
-$gris-oscuro: #6b4f4f;
-$gris-claro:#756060 ;
+$marron-oscuro: #6b4f4f;
+$marron-claro:#756060 ;
+$negro: #000;
 
 
 //!Listas
@@ -12,7 +13,8 @@ $colores:
 #6B4F4F,
 #F7AAB7,
 #BD8C8C,
-#D6A3A3;
+#D6A3A3,
+rgba(255, 255, 255, 0.642);
 
 $font-size:
 12px,
@@ -20,9 +22,7 @@ $font-size:
 20px;
 
 
-//!Mapas (pueden ser de dif categorias)
-
-//*ej: poner todas las propiedades del boton de serendipia
+//*poner todas las propiedades del boton de serendipia
 
 $btn: (
     bg-botton: #664E4F,
@@ -34,7 +34,7 @@ $btn: (
 //!Extends
 %flex{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;}
 
 
